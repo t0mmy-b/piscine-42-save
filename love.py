@@ -1,6 +1,8 @@
+#-*-coding: utf-8 -*-
 from random import randrange as r
 from time import sleep
-
+import os
+os.system('clear')
 add = ["is a marvelous person",
         "is incredibly beautiful",
         "is clever",
@@ -8,8 +10,8 @@ add = ["is a marvelous person",
         "is more sexier than The Rock", 
         "is a great programmer",
         "will add @srn_tommy on snapchat",
-        "knows how to bike without the casters",
-        "is clearly in my top 5 "Most handsome person in the 42 piscine",
+        "can bike without the casters",
+        "is clearly in my top 5 'Most handsome person in the 42 piscine'",
         "really wants to take a coffee with me",
         "has an awesome bottom",
         "will mark me really good",
@@ -26,11 +28,11 @@ add = ["is a marvelous person",
         ", u cute"
         ]
 
-
+colors = ['\033[95m','\033[94m','\033[93','\033[92m','\033[91m']
 name = str(input("c koi le blaz "))
 name = name.capitalize()
-
 while 1:
+    c = r(len(colors))
     i = r(len(add))
-    print(name+' '+add[i]+'.')
-    sleep(2)
+    print('\n'+colors[c]+name+' '+add[i]+'.')
+    sleep(4)
