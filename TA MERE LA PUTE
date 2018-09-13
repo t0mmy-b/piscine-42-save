@@ -1,0 +1,23 @@
+from random import randrange as r
+from time import sleep
+
+add = ["is a marvelous person",
+        "is incredibly beautiful",
+        "is clever",
+        "is hot", 
+        "is more sexier than A. Einstein", 
+        "is a great programmer",
+        "has two father",
+        "loves Jul",
+        "'s mom gay",
+        "will add on snapchat @srn_tommy"
+        ]
+
+
+name = str(input("c koi le blaz "))
+name = name.capitalize()
+
+while 1:
+    i = r(len(add))
+    print(name+' '+add[i]+'.')
+    sleep(2)
