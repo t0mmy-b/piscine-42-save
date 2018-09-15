@@ -29,7 +29,7 @@ add = ["is a marvelous person",
         ]
 
 colors = ['\033[95m','\033[94m','\033[93m','\033[92m','\033[91m']
-name = str(input("c koi le blaz "))
+name = str(raw_input("c koi le blaz "))
 name = name.capitalize()
 while 1:
     c = r(len(colors))
