@@ -9,7 +9,6 @@ add = ["is a marvelous person",
         "is hot", 
         "is sexier than The Rock", 
         "is a great programmer",
-        "will add @srn_tommy on snapchat",
         "can bike without the casters",
         "is clearly in my top 5 'Most handsome person in the 42 piscine'",
         "really wants to take a coffee with me",
@@ -35,4 +34,4 @@ while 1:
     c = r(len(colors))
     i = r(len(add))
     print('\n'+colors[c]+name+' '+add[i]+'.')
-    sleep(4)
+    sleep(7)
